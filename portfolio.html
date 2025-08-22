@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boddu Nethaji Simha | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <a href="#hero" class="active">B N S</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">My Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+   <section id="hero" style="position: relative; overflow: hidden; min-height: 100vh;">
+        <div id="particles-js" style="position: absolute; z-index: 1;"></div>
+        <div class="hero-content" style="position: relative; z-index: 2;">
+            <h3>Hi there  &#128075;, I'm </h3>
+            <h1 class="hero-title">Boddu Nethaji Simha</h1>
+            <p class="hero-subtitle">Information Technology Graduate | Aspiring AI/ML Engineer & AI Data Annotation</p>
+            <p class ="hero-sub">Passionate about data labeling, model training, and building intelligent 
+                <br>AI applications 🤖 with Python and modern technologies</p>
+            <div class="social-links">
+                <a href="#projects">View My Projects</a>
+            </div>
+        </div>
+    </section>
+
+<section id="about" class="container">
+ <div class="about-container">
+ <h2 class="about-heading">About Me</h2>
+ <div class="about-cards">
+ <!-- Image Card -->
+ <div class="about-card image-card">
+ <img src="portfolio-cartton.png" alt="About Me" />
+ </div>
+ <!-- Text Card -->
+ <div class="about-card text-card">
+      <p>
+                I’m an IT graduate with hands-on internship experience in AI/ML and frontend development. 
+        During my journey, I worked extensively on data collection, labeling, and training machine 
+        learning models using tools like YOLO and TensorFlow, while also gaining practical experience 
+        in building web interfaces with Vue.js. <br><br>
+        My growing expertise includes computer vision, model training, and deploying intelligent AI 
+        systems, along with a solid foundation in Python and modern technologies. I’m passionate about 
+        solving real-world problems, creating data-driven solutions, and contributing to innovative AI 
+        applications that make an impact.
+      </p>
+ </div>
+ </div>
+ </div>
+<section id="skills" class="skills">
+    <h2 class="section-title fade-in appear">My Skills</h2>
+    <div class="skills-container">
+        <div class="skill-card fade-in appear">
+            <i class="fas fa-brain"></i>
+            <h3>Machine Learning</h3>
+            <p style="text-align: justify;">Collected datasets, labeled data, and trained ML models like YOLO family using TensorFlow, PyTorch, and scikit-learn</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 95%;" data-width="95%"></div>
+            </div>
+        </div>
+        <div class="skill-card fade-in appear">
+            <i class="fas fa-code"></i>
+            <h3>Programming</h3>
+            <p style="text-align: justify;">Having  Knowledge in Python,SQL,Java, HTML and data science frameworks and libraries</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 92%;" data-width="92%"></div>
+            </div>
+        </div>
+        <div class="skill-card fade-in appear">
+            <i class="fa-solid fa-cloud-bolt"></i>
+            <h3>Cloud Services</h3>
+            <p>Worked with Services like EC2,IAM,Route 53, S3-buckets, VPC and Databases.</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%;" data-width="90%"></div>
+            </div>
+        </div>
+        <div class="skill-card fade-in appear">
+            <i class="fas fa-database"></i>
+            <h3>Big Data</h3>
+            <p style="text-align: justify;">Working with large-scale data using Hadoop, Spark, and cloud computing platforms</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 85%;" data-width="85%"></div>
+            </div>
+        </div>
+        
+        <div class="skill-card fade-in appear">
+            <i class="fas fa-project-diagram"></i>
+            <h3>Deep Learning</h3>
+            <p style="text-align: justify;">Building neural networks for computer vision, NLP, and time series forecasting</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 88%;" data-width="88%"></div>
+            </div>
+        </div>
+        <div class="skill-card fade-in appear">
+            <i class="fas fa-chart-pie"></i>
+            <h3>Data Visualization</h3>
+            <p style="text-align: justify;">Creating insightful visualizations using Matplotlib, Seaborn, Plotly.</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 94%;" data-width="94%"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Pose Estimation using CV2</h3>
+                    <p style="text-align: justify;">Estimating the poses of a person and images through Machine Learning models. In this we can estimate and describe the pose of the person. The pre-processing and classification was done by Tensorflow library and plotting of pose’s was done by matplot library.</p>
+                    <div class="project-links">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Car Booking Forecast</h3>
+                    <p style="text-align: justify;">The aim of the project is renting a cab automated and counting the booked cars data as hourly, monthly, yearly and by seasons. 
+                        <Br>In this project we use Machine Learning libraries pandas,scikit-learn for data classification and for plotting we use the matplot library..</p>
+                     <div class="project-links">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Cloud Storage based on three-layer security</h3>
+                    <p style="text-align: justify;">Creating a website and launching in AWS cloud using EC2 Instances and using IAM 
+                        service for Authentication and Authorization and AWS – CLI for server-side encryption. In this project we 
+                        have to create the certifications for website and validate them using RSA and SHA encryption algorithms </p>
+                     <div class="project-links">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<section id="resume" class="resume">
+    <h2 class="section-title fade-in appear">My Resume</h2>
+
+    <div class="resume-frame fade-in appear">
+        <div class="resume-container">
+
+            <!-- Work Experience -->
+            <div class="resume-section">
+                <h3 class="resume-section-title">Work Experience</h3>
+                
+                <div class="resume-item">
+                    <span class="resume-date">Jun 2024 - Jul 2024</span>
+                    <h3>Trainee Engineer Intern</h3>
+                    <h4>Ajai Robotics</h4>
+                    <p>
+                       <li> Developed and enhanced front-end interfaces using Vue.js, improving user experience and interface 
+                        responsiveness</li>
+                        <li>Collaborated with the development team to integrate front-end components with back-end systems.</li>
+                        <li>Contributed to the design and implementation of UI/UX elements, ensuring alignment with project 
+                        requirements. </li>
+                    </p>
+                </div>
+
+                <div class="resume-item">
+                    <span class="resume-date">Nov 2023 – May 2024</span>
+                    <h3>Trainee Engineer Intern</h3>
+                    <h4>Nala Robotics</h4>
+                    <p>
+                       <li> Collected and curated datasets from various online sources for machine learning model training.</li>
+                        <li>Prepared and organized datasets using data captured from CCTV cameras.</li>
+                        <li>Trained machine learning models using Ultralytics, focusing on real-time object detection and recognition. </li>
+                        <li>Analyzed model performance, comparing results against real-time data to refine accuracy and reliability.</li>
+                    </p>
+                </div>
+                <div class="resume-item">
+                    <span class="resume-date">May 2023 - Jun 2023</span>
+                    <h3>Trainee Engineer Intern</h3>
+                    <h4>Nala Robotics</h4>
+                    <p>
+                       <li>Collected and curated datasets from various online sources for machine learning and data analysis.</li>
+                        <li>Completed data labeling to ensure accurate model training and analysis.</li>
+                        <li>Prepared detailed product analysis sheets to support decision-making and strategy development.</li>
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- Education -->
+            <div class="resume-section">
+                <h3 class="resume-section-title">Education</h3>
+
+                <div class="resume-item">
+                    <span class="resume-date">2020 - 2024</span>
+                    <h3>B.Tech in Information Technology</h3>
+                    <h4>Usha Rama College of Engineering and Technology, Telaprolu.</h4>
+                    <p>Specialized in IT. Completed a project on "Cloud Storage based on three-layer security".</p>
+                    <p>Completed with 69%.</p>
+                </div>
+
+                <div class="resume-item">
+                    <span class="resume-date">2018 - 2020</span>
+                    <h3>Intermediate Education</h3>
+                    <h4>A.P Model School & Jr.College, Dachepalli</h4>
+                    <p>Focus on Mathematics and Physics.</p>
+                    <p>Completed with 780/1000 marks.</p>
+                </div>
+
+                <div class="resume-item">
+                    <span class="resume-date">2017 - 2018</span>
+                    <h3>Secondary Education</h3>
+                    <h4>A.P Model School & Jr.College, Dachepalli</h4>
+                    <p>Focus on Mathematics and Physics.</p>
+                    <p>Completed with 8.5/10 GPA.</p>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="resume-section">
+                <h3 class="resume-section-title">Certifications</h3>
+
+                <div class="resume-item">
+                    <span class="resume-date">Jan 2024 - March 2024</span>
+                    <h3>Data Engineering Virtual Internship</h3>
+                    <h4>Amazon Web Services</h4>
+                </div>
+
+                <div class="resume-item">
+                    <span class="resume-date">May 2023 - July 2023</span>
+                    <h3>Cloud Virtual Internship</h3>
+                    <h4>Amazon Web Services</h4>
+                </div>
+
+                <div class="resume-item">
+                    <span class="resume-date">July 2022 - Sept 2022</span>
+                    <h3>Data Science for Engineers</h3>
+                    <h4>National Programme on Technology Enhanced Learning (NPTEL) online Certification</h4>
+                </div>
+            </div>
+            <div class="resume-section">
+                <h3 class="resume-section-title">Achievements</h3>
+
+                <div class="resume-item">
+                    <span class="resume-date">July 2023</span>
+                    <h3>First Prize in 24 - Hour HACKATHON</h3>
+                    <h4>Conducted by BrainOvison | Usha Rama College of Engineering and Technology, Telaprolu.</h4>
+                </div>
+                </div>
+            <div class="download-container">
+                <a href="Nethaji_Resume.pdf" class="btn download-btn">Download Full Resume</a>
+            </div>
+
+        </div>
+    </div>
+</section>     
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>I'm always open to discussing new projects and opportunities.</p>
+            <p><strong>Email:</strong> <a href="mailto:netajisimha143@gmail.com">netajisimha143@gmail.com</a></p>
+            <p><strong>Phone:</strong> +91 9110715355</p>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/boddu-nethaji-simha-682b63218/" target="_blank">LinkedIn</a> | 
+                <a href="https://github.com/boddunethaji" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#0a192f"
+                },
+                "shape": {
+                    "type": "circle",
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#0a192f",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+
+        
+    </script>
+
+    <script>
+let lastScrollTop = 0;
+const navbar = document.getElementById("navbar");
+
+window.addEventListener("scroll", function() {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop) {
+        // Scrolling down -> hide navbar
+        navbar.style.top = "-90px";
+    } else {
+        // Scrolling up -> show navbar
+        navbar.style.top = "0";
+    }
+    lastScrollTop = scrollTop;
+});
+</script>
+
+</body>
+</html>
